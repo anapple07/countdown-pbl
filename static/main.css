@@ -1,0 +1,50 @@
+body {
+    position:relative;
+    height:100vh;
+}
+
+#main {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width: 100%;
+    margin: auto 0;
+}
+
+.max-auto {
+    width: 100%;
+    margin: auto 0;
+}
+
+#middle { 
+    margin-top: 20px;
+}
+
+.pbl {
+    color:#ff6410;
+    font-size: 1.5em;
+}
+
+.last-timer > .count {
+    font-size: 3.0em;
+}
+
+.middle-timer > .count {
+    font-size: 2.0em;
+}
+
+.day {
+    color:#0085C7;
+}
+
+.hour {
+    color:#F4C300;
+}
+
+.minutes {
+    color:#009F3D;
+}
+
+.second {
+    color:#DF0024;
+}
